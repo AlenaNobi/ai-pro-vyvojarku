@@ -1,0 +1,62 @@
+/* Nastavení základního stylu pro tělo stránky */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333;
+}
+
+/* Kontejner pro hru */
+#game-container {
+  position: relative;
+}
+
+/* Styl pro herní plátno */
+#gameCanvas {
+  border: 2px solid white;
+  background-color: skyblue;
+}
+
+/* Styl pro zobrazení skóre */
+#score {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* Styl pro zobrazení konce hry */
+#game-over {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Styl pro tlačítko restartu */
+#game-over button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Styl pro tlačítko restartu při najetí myší */
+#game-over button:hover {
+  background-color: #45a049;
+}
