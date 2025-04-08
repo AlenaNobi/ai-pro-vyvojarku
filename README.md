@@ -1,4 +1,5 @@
 Večerní kurz AI pro vývojářky od Czechitas https://www.czechitas.cz/kurzy/ai-pro-vyvojarky
+- rozsah přímé výuky 7 hodin
 - kurz se zaměřoval na vyuzití AI v rámci vývojářského workflow
 - zkoušeli jsme si prompt engeeniring v rámci GitHub Copilot
 - pro mne byl kurz velmi přínosný a zajímavý, využívali jsme JavaScript, který jsem se učila před pár lety a tudíž jej tolik neznám.
